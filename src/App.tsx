@@ -51,13 +51,11 @@ const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-200 via-purple-200 to-blue-200 flex flex-col items-center justify-center p-4 sm:p-8 relative overflow-hidden">
-      
-      {/* Pattern background */}
+
       <div className="absolute inset-0 opacity-20">
         <div className="w-full h-full bg-dots-pattern bg-dots" />
       </div>
 
-      {/* Stopwatch content */}
       <div className="relative z-10 w-full max-w-2xl">
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-purple-900 mb-6 sm:mb-8 text-center font-mono tracking-widest text-shadow">
           STOPWATCH
